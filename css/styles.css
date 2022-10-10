@@ -1,0 +1,268 @@
+
+:root {
+  --brand-color: #2196f3;
+}
+:root {
+  --text-color: #757575;
+}
+:root {
+  --kontakt-color: rgba(255, 255, 255, 0.6);
+}
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+.brand-color {
+  color: var(--brand-color);
+}
+.text-color {
+  color: var(--text-color);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #212121;
+}
+.header-nav{
+  display: flex;
+  margin: 24px 227px 25px 215px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu, .header-adress{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  color: #000000;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.menu-item{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #212121;
+}
+.menu-item a:hover{
+  color: var(--brand-color);
+}
+.adress-item a:hover{
+  color: var(--brand-color);
+}
+.text-color{
+  color: var(--text-color);
+}
+
+.header-menu .menu-item{
+  margin-right: 46px;
+}
+.menu-item:last-child{
+  margin-right: 0;
+}
+.header-adress .adress-item{
+  margin-right: 50px;
+}
+.header-adress .adress-item:last-child{
+  margin-right: 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f303a;
+}
+.content-titel{
+  margin: 200px 452px 30px;
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+}
+.button{
+  color: #212121;
+  background-color: #f5f4fa;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 210px;
+}
+.button:active {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+.work{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  display: flex;
+  width: 1200px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  padding: 0;
+}
+.text-item{
+  margin-right: 30px;
+  text-align: start;
+  list-style: none;
+}
+.text-item:last-child{
+  margin-right: 0;
+}
+.text h4 {
+  font-weight: 700;
+}
+.text p {
+  line-height: 1.3;
+}
+.work {
+  background-color: #e5e5e5;
+}
+.title-item{
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 624px;
+  margin-right: 624px;
+  margin-bottom: 50px;
+}
+.team li {
+  background-color: #ffffff;
+}
+.worker-cards{
+  display: flex;
+  width: 1200px;
+  padding: 0;
+  margin-right: 215px;
+  margin-bottom: 94px;
+  margin-left: 215px;
+}
+.cards{
+  list-style: none;
+  margin-right: 30px;
+}
+.cards:last-child{
+  margin-right: 0;
+}
+.team {
+  display: flex;
+  background-color: #F5F4FA;
+  flex-direction: column;
+}
+.team-photo{
+  display: flex;
+  width: 1200px;
+}
+.team-title{
+  margin: 94px 695px 50px;
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: #212121;
+}
+.team-cards{
+  list-style: none;
+  margin-right: 30px;
+}
+.team-cards:last-child{
+  margin-right: 0;
+}
+.team h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team p {
+  font-size: 16px;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.footer-adres {
+  line-height: 1.3;
+  font-style: normal;
+}
+
+.kontakt-color {
+  color: var(--kontakt-color);
+}
+.contact {
+  line-height: 1.3;
+}
+.portfolio-main-block {
+  background-color: #e5e5e5;
+}
+.portfolio-main-block li {
+  background-color: #ffffff;
+}
+.portfolio-main-block h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.portfolio-main-block p {
+  font-size: 16px;
+}
+.portfolio-main-block-button {
+  text-align: center;
+}
+.button-active {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 121px;
+  height: 38px;
+}
+.portfolio-button:active {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+
+.button-pages {
+  width: 93px;
+  height: 38px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-applicaton {
+  width: 114px;
+  height: 38px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-designer {
+  width: 91px;
+  height: 38px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-marketing {
+  width: 121px;
+  height: 38px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
