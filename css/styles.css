@@ -26,11 +26,15 @@ body {
   background-color: #ffffff;
   color: #212121;
 }
+header{
+  border: 1px solid #ECECEC;
+}
 .header-nav {
   display: flex;
   margin: 24px 227px 25px 215px;
   justify-content: space-between;
   align-items: center;
+  
 }
 .header-menu,
 .header-adress {
@@ -152,6 +156,10 @@ a {
 .cards {
   list-style: none;
   margin-right: 30px;
+}
+.border-card{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .cards:last-child {
   margin-right: 0;
@@ -314,7 +322,7 @@ footer a {
   margin-right: 30px;
   margin-bottom: 30px;
   max-width: 370px;
-  background-color: #eeeeee;
+  background-color: #FFFFFF;
 }
 .card:last-child,
 .card:nth-child(3),
