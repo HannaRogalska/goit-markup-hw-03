@@ -1,4 +1,3 @@
-
 :root {
   --brand-color: #2196f3;
 }
@@ -24,13 +23,14 @@ body {
   background-color: #ffffff;
   color: #212121;
 }
-.header-nav{
+.header-nav {
   display: flex;
   margin: 24px 227px 25px 215px;
   justify-content: space-between;
   align-items: center;
 }
-.header-menu, .header-adress{
+.header-menu,
+.header-adress {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -42,37 +42,35 @@ body {
   color: #000000;
   font-weight: 700;
 }
-
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.menu-item{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-color: #212121;
+.menu-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
 }
-.menu-item a:hover{
+.menu-item a:hover {
   color: var(--brand-color);
 }
-.adress-item a:hover{
+.adress-item a:hover {
   color: var(--brand-color);
 }
-.text-color{
+.text-color {
   color: var(--text-color);
 }
-
-.header-menu .menu-item{
+.header-menu .menu-item {
   margin-right: 46px;
 }
-.menu-item:last-child{
+.menu-item:last-child {
   margin-right: 0;
 }
-.header-adress .adress-item{
+.header-adress .adress-item {
   margin-right: 50px;
 }
-.header-adress .adress-item:last-child{
+.header-adress .adress-item:last-child {
   margin-right: 0;
 }
 .content {
@@ -81,7 +79,7 @@ color: #212121;
   align-items: center;
   background-color: #2f303a;
 }
-.content-titel{
+.content-titel {
   margin: 200px 452px 30px;
   font-size: 44px;
   font-weight: 900;
@@ -89,7 +87,7 @@ color: #212121;
   text-align: center;
   line-height: 1.6;
 }
-.button{
+.button {
   color: #212121;
   background-color: #f5f4fa;
   font-size: 16px;
@@ -104,11 +102,11 @@ color: #212121;
   color: #ffffff;
   background-color: var(--brand-color);
 }
-.work{
+.work {
   display: flex;
   flex-direction: column;
 }
-.text{
+.text {
   display: flex;
   width: 1200px;
   margin-left: 215px;
@@ -116,12 +114,12 @@ color: #212121;
   margin-bottom: 94px;
   padding: 0;
 }
-.text-item{
+.text-item {
   margin-right: 30px;
   text-align: start;
   list-style: none;
 }
-.text-item:last-child{
+.text-item:last-child {
   margin-right: 0;
 }
 .text h4 {
@@ -133,7 +131,7 @@ color: #212121;
 .work {
   background-color: #e5e5e5;
 }
-.title-item{
+.title-item {
   font-weight: 700;
   font-size: 36px;
   margin-left: 624px;
@@ -143,7 +141,7 @@ color: #212121;
 .team li {
   background-color: #ffffff;
 }
-.worker-cards{
+.worker-cards {
   display: flex;
   width: 1200px;
   padding: 0;
@@ -151,34 +149,34 @@ color: #212121;
   margin-bottom: 94px;
   margin-left: 215px;
 }
-.cards{
+.cards {
   list-style: none;
   margin-right: 30px;
 }
-.cards:last-child{
+.cards:last-child {
   margin-right: 0;
 }
 .team {
   display: flex;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   flex-direction: column;
 }
-.team-photo{
+.team-photo {
   display: flex;
   width: 1200px;
 }
-.team-title{
+.team-title {
   margin: 94px 695px 50px;
   font-style: normal;
-font-weight: 700;
-font-size: 36px;
-color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
 }
-.team-cards{
+.team-cards {
   list-style: none;
   margin-right: 30px;
 }
-.team-cards:last-child{
+.team-cards:last-child {
   margin-right: 0;
 }
 .team h4 {
@@ -212,7 +210,6 @@ footer a {
   margin-left: 215px;
   margin-bottom: 9px;
 }
-
 .kontakt-color {
   color: var(--kontakt-color);
 }
@@ -227,20 +224,20 @@ footer a {
   display: flex;
   flex-direction: column;
 }
-.portfolio-list-button{
+.portfolio-list-button {
   display: flex;
   justify-content: center;
   list-style: none;
   margin: 94px 518px 34px 510px;
 }
-.list-button{
+.list-button {
   background-color: #ffffff;
   margin-right: 8px;
 }
-.list-button:last-child{
+.list-button:last-child {
   margin-right: 0;
 }
-.list-buttona:hover{
+.list-buttona:hover {
   color: var(--brand-color);
 }
 .button-active {
@@ -288,33 +285,31 @@ footer a {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-
-.portfolio-main-cards{
+.portfolio-main-cards {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
   background-color: #eeeeee;
   margin: 0px 215px 94px 215px;
 }
-.card{
- list-style: none;
- margin-right: 30px;
- max-width: 370px;
-
+.card {
+  list-style: none;
+  margin-right: 30px;
+  max-width: 370px;
 }
-.card:last-child{
+.card:last-child {
   margin-right: 0;
- }
- .card:nth-child(3){
+}
+.card:nth-child(3) {
   margin-right: 0;
- }
- .card:nth-child(6){
+}
+.card:nth-child(6) {
   margin-right: 0;
- }
- .set{
+}
+.set {
   margin: 0;
   max-width: 370px;
- }
+}
 .portfolio-main-block h4 {
   margin: 20px 24px 4px;
   font-weight: 700;
