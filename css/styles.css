@@ -11,6 +11,9 @@
   width: 1600px;
   margin: 0 auto;
 }
+.container {
+  width: 1200px;
+}
 .brand-color {
   color: var(--brand-color);
 }
@@ -80,7 +83,8 @@ a {
   background-color: #2f303a;
 }
 .content-titel {
-  margin: 200px 452px 30px;
+  margin: 200px 252px 30px 252px;
+
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
@@ -108,10 +112,7 @@ a {
 }
 .text {
   display: flex;
-  width: 1200px;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-bottom: 94px;
+  margin: 120px 15px 94px;
   padding: 0;
 }
 .text-item {
@@ -134,8 +135,8 @@ a {
 .title-item {
   font-weight: 700;
   font-size: 36px;
-  margin-left: 624px;
-  margin-right: 624px;
+  margin-left: 424px;
+  margin-right: 424px;
   margin-bottom: 50px;
 }
 .team li {
@@ -143,11 +144,10 @@ a {
 }
 .worker-cards {
   display: flex;
-  width: 1200px;
   padding: 0;
-  margin-right: 215px;
+  margin-right: 15px;
   margin-bottom: 94px;
-  margin-left: 215px;
+  margin-left: 15px;
 }
 .cards {
   list-style: none;
@@ -163,18 +163,25 @@ a {
 }
 .team-photo {
   display: flex;
-  width: 1200px;
+  padding: 0;
 }
 .team-title {
-  margin: 94px 695px 50px;
+  margin: 94px 495px 50px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #212121;
 }
+
 .team-cards {
   list-style: none;
   margin-right: 30px;
+  margin-bottom: 94px;
+  max-width: 270px;
+}
+.team-text {
+  margin: 0;
+  max-width: 270px;
 }
 .team-cards:last-child {
   margin-right: 0;
@@ -182,32 +189,35 @@ a {
 .team h4 {
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
 }
 .team p {
   font-size: 16px;
+  text-align: center;
 }
 footer a {
   text-decoration: none;
   color: #ffffff;
 }
-.footer {
-  display: flex;
-  flex-direction: column;
+
+.footer-content {
   background-color: #2f303a;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   margin-top: 50px;
-  margin-left: 215px;
+  margin-left: 15px;
   margin-bottom: 20px;
 }
 .footer-adres {
   line-height: 1.3;
   font-style: normal;
-  margin-left: 215px;
+  margin-left: 15px;
   margin-bottom: 9px;
 }
 .kontakt-color {
@@ -217,7 +227,15 @@ footer a {
   list-style: none;
   line-height: 1.3;
   padding: 0;
-  margin: 0px 1154px 60px 215px;
+}
+.mail {
+  margin-bottom: 9px;
+  margin-left: 15px;
+}
+.telefon {
+  margin-bottom: 9px;
+  margin-left: 15px;
+  margin-bottom: 60px;
 }
 .portfolio-main-block {
   background-color: #e5e5e5;
@@ -228,7 +246,7 @@ footer a {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 94px 518px 34px 510px;
+  margin: 100px 332px 50px 310px;
 }
 .list-button {
   background-color: #ffffff;
@@ -289,22 +307,25 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  background-color: #eeeeee;
-  margin: 0px 215px 94px 215px;
+  margin: 0px 15px 94px 15px;
 }
 .card {
   list-style: none;
   margin-right: 30px;
+  margin-bottom: 30px;
   max-width: 370px;
+  background-color: #eeeeee;
 }
-.card:last-child {
-  margin-right: 0;
-}
-.card:nth-child(3) {
-  margin-right: 0;
-}
+.card:last-child,
+.card:nth-child(3),
 .card:nth-child(6) {
   margin-right: 0;
+}
+
+.card:nth-child(7),
+.card:nth-child(8),
+.card:nth-child(9) {
+  margin-bottom: 0;
 }
 .set {
   margin: 0;

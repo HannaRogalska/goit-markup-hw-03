@@ -16,39 +16,37 @@
     <title>Studio</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div>
-          <nav class="header-nav">
-            <div class="header-logo">
-              <a href="#"><span class="brand-color">Web</span>Studio</a>
-            </div>
+    <header>
+      <div class="container">
+        <nav class="header-nav">
+          <div class="header-logo">
+            <a href="#"><span class="brand-color">Web</span>Studio</a>
+          </div>
 
-            <ul class="header-menu">
-              <li class="menu-item">
-                <a href="/agencja"><span>Agencja</span></a>
-              </li>
-              <li class="menu-item">
-                <a href="portfolio.html" target="_blank">Portfolio</a>
-              </li>
-              <li class="menu-item">
-                <a href="/kontakt">Kontakt</a>
-              </li>
-            </ul>
-            <ul class="header-adress">
-              <li class="adress-item">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="adress-item">
-                <a class="text-color" href="tel:+48111111111"
-                  >+48 111 111 111</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <main>
+          <ul class="header-menu">
+            <li class="menu-item">
+              <a href="/agencja"><span>Agencja</span></a>
+            </li>
+            <li class="menu-item">
+              <a href="portfolio.html" target="_blank">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a href="/kontakt">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="header-adress">
+            <li class="adress-item">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="adress-item">
+              <a class="text-color" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
         <div class="content">
           <h1 class="content-titel">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
@@ -118,7 +116,7 @@
           <h2 class="team-title">Nasz zespół</h2>
           <ul class="team-photo">
             <li class="team-cards">
-              <figure>
+              <figure class="team-text">
                 <img
                   src="./images/product-designer.jpg"
                   alt="product designer"
@@ -132,7 +130,7 @@
               </figure>
             </li>
             <li class="team-cards">
-              <figure>
+              <figure class="team-text">
                 <img
                   src="./images/frontend-developer.jpg"
                   alt="frontend developer"
@@ -146,7 +144,7 @@
               </figure>
             </li>
             <li class="team-cards">
-              <figure>
+              <figure class="team-text">
                 <img
                   src="./images/marketing.jpg"
                   alt="market"
@@ -160,7 +158,7 @@
               </figure>
             </li>
             <li class="team-cards">
-              <figure>
+              <figure class="team-text">
                 <img
                   src="./images/ui-designer.jpg"
                   alt="ui designer"
@@ -175,25 +173,31 @@
             </li>
           </ul>
         </section>
-      </main>
-      <footer class="footer">
-        <div class="footer-logo">
-          <a href="/"><span class="brand-color">Web</span>Studio</a>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="/"><span class="brand-color">Web</span>Studio</a>
+          </div>
+          <address class="footer-adres">
+            <span> m. Warszawa, Aleje Jerozolimskie 21</span>
+          </address>
+          <ul class="contact">
+            <li class="mail">
+              <a class="kontakt-color" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="telefon">
+              <a class="kontakt-color" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
         </div>
-        <address class="footer-adres">
-          <span> m. Warszawa, Aleje Jerozolimskie 21</span>
-        </address>
-        <ul class="contact">
-          <li>
-            <a class="kontakt-color" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="kontakt-color" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
