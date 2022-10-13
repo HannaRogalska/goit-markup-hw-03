@@ -16,42 +16,45 @@
     <title>Studio</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav class="header-nav">
-          <div class="header-logo">
-            <a href="#"><span class="brand-color">Web</span>Studio</a>
-          </div>
+    <header>
+      <nav class="header-nav">
+        <div class="header-logo">
+          <a href="#"><span class="brand-color">Web</span>Studio</a>
+        </div>
 
-          <ul class="header-menu">
-            <li class="menu-item">
-              <a href="/agencja"><span>Agencja</span></a>
-            </li>
-            <li class="menu-item">
-              <a href="portfolio.html" target="_blank">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a href="/kontakt">Kontakt</a>
-            </li>
-          </ul>
-          <ul class="header-adress">
-            <li class="adress-item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="adress-item">
-              <a class="text-color" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="content">
+        <ul class="header-menu">
+          <li class="menu-item">
+            <a href="/agencja"><span>Agencja</span></a>
+          </li>
+          <li class="menu-item">
+            <a href="portfolio.html" target="_blank">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a href="/kontakt">Kontakt</a>
+          </li>
+        </ul>
+        <ul class="header-adress">
+          <li class="adress-item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="adress-item">
+            <a class="text-color" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <div class="container">
           <h1 class="content-titel">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
           <button class="button" type="button">Zamów usługe</button>
         </div>
-        <section class="work">
+      </div>
+
+      <section class="work section">
+        <div class="container">
           <ul class="text">
             <li class="text-item">
               <h4>LOREM IPSUM</h4>
@@ -109,71 +112,71 @@
               />
             </li>
           </ul>
-        </section>
-        <section class="team">
+        </div>
+      </section>
+      <section class="team section">
+        <div class="container">
           <h2 class="team-title">Nasz zespół</h2>
           <ul class="team-photo">
-            <li class="team-cards border-card">
-              <figure class="team-text">
+            <li class="team-cards">
+              <div>
                 <img
+                  class="card-imege gap"
                   src="./images/product-designer.jpg"
                   alt="product designer"
                   width="270"
                   height="260"
                 />
-                <figcaption>
-                  <h4>John Doe</h4>
-                  <p class="text-color">Product Designer</p>
-                </figcaption>
-              </figure>
+                <h4>John Doe</h4>
+                <p class="text-color">Product Designer</p>
+              </div>
             </li>
-            <li class="team-cards border-card">
-              <figure class="team-text">
+            <li class="team-cards">
+              <div>
                 <img
+                  class="card-imege gap"
                   src="./images/frontend-developer.jpg"
                   alt="frontend developer"
                   width="270"
                   height="260"
                 />
-                <figcaption>
-                  <h4>John Doe</h4>
-                  <p class="text-color">Frontent Developer</p>
-                </figcaption>
-              </figure>
+                <h4>John Doe</h4>
+                <p class="text-color">Frontent Developer</p>
+              </div>
             </li>
-            <li class="team-cards border-card">
-              <figure class="team-text">
+            <li class="team-cards">
+              <div>
                 <img
+                  class="card-imege gap"
                   src="./images/marketing.jpg"
                   alt="market"
                   width="270"
                   height="260"
                 />
-                <figcaption>
-                  <h4>John Doe</h4>
-                  <p class="text-color">Marketing</p>
-                </figcaption>
-              </figure>
+                <h4>John Doe</h4>
+                <p class="text-color">Marketing</p>
+              </div>
             </li>
-            <li class="team-cards border-card">
-              <figure class="team-text">
+            <li class="team-cards">
+              <div>
                 <img
+                  class="card-imege gap"
                   src="./images/ui-designer.jpg"
                   alt="ui designer"
                   width="270"
                   height="260"
                 />
-                <figcaption>
-                  <h4>John Doe</h4>
-                  <p class="text-color">UI Designer</p>
-                </figcaption>
-              </figure>
+                <h4>John Doe</h4>
+                <p class="text-color">UI Designer</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </main>
-      <footer>
-        <div class="footer-content">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="container">
           <div class="footer-logo">
             <a href="/"><span class="brand-color">Web</span>Studio</a>
           </div>
@@ -193,7 +196,7 @@
             </li>
           </ul>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
